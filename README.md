@@ -1,40 +1,49 @@
-# 📊 Sales Analytics Dashboard
+# Sales Analytics Dashboard
 
-Dashboard interativo desenvolvido em Python para análise de dados de vendas.
+Interactive dashboard for exploring and analyzing sales data using Python.
 
-O projeto permite visualizar faturamento, quantidade de produtos vendidos,
-ticket médio, desempenho por categoria e desempenho por produto.
+The application processes sales data from a CSV file and provides an interactive
+view of revenue, products, categories, and sales trends over time.
 
----
+## Overview
 
-## 🚀 Demonstração
+This project was built as a practical Python project focused on data processing,
+analysis, and visualization.
 
-O dashboard permite:
+The dashboard allows users to filter the data by category and date range and
+view the results through interactive charts and summary metrics.
 
-- 📈 visualizar o faturamento ao longo do tempo;
-- 💰 analisar o faturamento total;
-- 📦 acompanhar a quantidade de produtos vendidos;
-- 🧾 calcular o ticket médio;
-- 🏷️ comparar categorias;
-- 🏆 identificar os produtos com maior faturamento;
-- 🔎 filtrar os dados por categoria e período.
+## Data Disclaimer
 
----
+All sales data used in this project is **fictional** and was created exclusively
+for demonstration and educational purposes.
 
-## 🛠️ Tecnologias
+The dataset does not represent a real company, real transactions, or real
+customers. No personal or confidential information is used.
 
-- Python
+## Features
+
+- Total revenue
+- Total quantity sold
+- Average ticket
+- Revenue over time
+- Revenue by category
+- Revenue by product
+- Filtering by category
+- Filtering by date range
+- Sales data table
+
+## Technologies
+
+- Python 3
 - Pandas
 - Streamlit
 - Plotly
 
----
-
-## 📂 Estrutura
+## Project Structure
 
 ```text
 sales-analytics-dashboard/
-│
 ├── app.py
 ├── requirements.txt
 ├── README.md
